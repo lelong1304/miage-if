@@ -10,13 +10,15 @@ import {HttpClientModule} from "@angular/common/http";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {RouterModule} from "@angular/router";
+import { StudentRequesterComponent } from './student-requester/student-requester.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainNavbarComponent,
     StudentsListComponent,
-    AngularHomeComponent
+    AngularHomeComponent,
+    StudentRequesterComponent
   ],
   imports: [
     BrowserModule,
